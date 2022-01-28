@@ -72,10 +72,8 @@ $ echo $?
 0
 ```
 
-Pour déterminer le PPID d'un processus, vous inspecterez le contenu du fichier `/proc/PID/stat` qui contient plusieurs informations sur un processus, dont son PPID.
 
-❤ Pour simplifier votre développement, vous pouvez considérer que l'option `-p` sera toujours placée en premier argument.
 
-Votre programme doit être robuste et gérer correctement les nombreux cas et contextes d'utilisation possibles et être indépendant de la taille ou du nombre des variables d'environnement.
+
 
 
