@@ -1,4 +1,4 @@
-# TP0 penv - Projet développé sur Gitlab.
+# TP0 penv
 
 ## Manuel de l'utilisateur
 
@@ -58,7 +58,6 @@ WORLD
 ```
 
 ## Directives d’implémentation
-
 Pour déterminer les variables d'environnement d'un processus, vous inspecterez le contenu du fichier `/proc/PID/environ` qui contient l'ensemble des variables d'environnement d'un processus donné.
 
 Pour information, chaque entrée du fichier `environ` est terminée par un caractère NUL (`\0`); les entrées sont donc de la forme « `NOM=VALEUR\0` ».
@@ -72,6 +71,7 @@ $ echo $?
 0
 ```
 
+Le projet a été développé sur Gitlab.
 
 
 
